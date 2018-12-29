@@ -1,0 +1,268 @@
+body { 
+    background-image: url(img/tree_bark.png); 
+    background-repeat: cover;
+    margin: 0 auto;
+}
+
+
+#header {
+   text-align: center; 
+    
+}
+
+#header img {
+    width: 60%;
+    height: auto;
+}
+
+#blurb {
+    
+    text-decoration-style: bold;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px 30px 12px 30px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 24px; 
+    background: white;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: #51D4D3;
+
+}
+
+#badWeather {
+    
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px; 
+}
+
+#coldWeather {
+    
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px; 
+}
+
+#warmWeather {
+    
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    margin-left: 15%;
+    height: auto;
+
+}
+
+#temp {
+    
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background: #51D4D3;
+    border-radius: 10px;
+    color: white;
+    font-size: 70px;
+    margin-top: 25px;
+    
+    
+}
+
+
+#navbar-2 {
+    text-align: center;
+    background: #51D4D3;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    
+}
+
+#navbar-2 ul {
+    padding: 15px 0px 15px 0px;
+    margin: 0 auto;
+    
+    }
+#navbar-2 li {
+      display: inline;
+      padding: 0px 50px 0px 50px;
+    }
+#navbar-2 a {
+    color: white;
+}
+
+@media (max-width: 500px) {
+    #warmWeather {
+    font-size: 15px;
+    }
+     
+     #blurb {
+         font-size: 18px;
+     }
+     
+     #temp {
+        text-align: center;
+        margin: auto;
+        width: 60px;
+        height: 60px;
+        background: #51D4D3;
+        color: white;
+        font-size: 55px;
+        margin-top: 15px; 
+     }
+}
+
+@media (max-width: 1040px) {
+    
+    #navbar-2 ul {
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    }
+#navbar-2 li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+}
+}
+
+
+
+@media (min-width: 700px) {
+.hidden {
+    font-size: 0;
+   
+}
+    #menuBtn {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+}
+}
+
+@media (max-width: 700px) {
+    
+    #navbar-2 li{
+        
+        display: block;
+        font-size: 17px;
+        padding: 10px;
+       
+        
+    }
+
+    
+    #menuBtn {
+        color: white;
+        text-align: center;
+        background: #51D4D3;
+        font-family: 'Slabo 27px', serif;
+        font-size: 30px;
+    }
+/*
+    #navbar-2 {
+        background: none;
+    }
+    
+    #navbar-2 a {
+        color: black;
+    }
+*/
+    
+}
+
+#header2 {
+    text-decoration-style: bold;
+    font-family: 'Slabo 27px', serif;
+    font-size: 50px; 
+    margin-left: 5%;
+    margin-top: 20px;
+    
+}
+#header3 {
+    text-decoration-style: bold;
+    font-family: 'Slabo 27px', serif;
+    font-size: 50px; 
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#about {
+    font-family: 'Slabo 27px', serif;
+    font-size: 24px; 
+    text-align: left;
+    margin-left: 5%;
+    max-width: 900px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 2%;
+    border-style: dotted;
+    border-color: #51D4D3;
+
+
+}
+
+#about p{
+    margin: 0;
+}
+
+#contact {
+    font-family: 'Slabo 27px', serif;
+    font-size: 24px; 
+    text-align: left;
+    margin-left: 5%;
+    max-width: 900px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 2%;
+    border-style: dotted;
+    border-color: #51D4D3;
+
+}
+
+#contact p{
+    margin: 0;
+}
+
+footer {
+    font-family: 'Slabo 27px', serif;
+    font-size: 17px;
+    text-align: left;
+    background: #51D4D3;
+    color: white;
+    margin-top: 70px;
+    padding: 7px;
+    height: 100%;
+
+}
+
+#email {
+    float: right;
+    
+}
+
+#rights {
+    
+}
+
+    
+@media (max-width: 800px) {
+footer{
+    
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    background: #51D4D3;
+    color: white;
+
+}
+    
+    #email {
+        float: none;
+        display: block;
+    }
+
+    #rights {
+        display: inline-block;
+    }
+}
+
